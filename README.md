@@ -1,6 +1,6 @@
 # ASP.NET-CORE-CRUD-OPEARTION
 
-The Coffee Shop Management System schema outlined in your document has six tables: Product, User, Order, OrderDetail, Bills, and Customer, each with designated primary and foreign keys, relationships, and constraints.
+The Coffee Shop Management System schema outlined in document has six tables: Product, User, Order, OrderDetail, Bills, and Customer, each with designated primary and foreign keys, relationships, and constraints.
 
 # Overview of Each Table
 
@@ -33,6 +33,7 @@ Linked to Order and User tables through foreign keys, detailing payment and user
 
 Manages customer data with CustomerID as the Primary Key and includes fields like CustomerName, Email, GST NO, and CityName.
 Linked to User table through UserID, allowing users to manage customer records.
+
 
 
 This schema ensures efficient tracking of coffee shop operations, enabling CRUD functionality across all essential entities for streamlined order management, billing, and user oversight
